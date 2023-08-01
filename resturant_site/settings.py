@@ -85,12 +85,11 @@ WSGI_APPLICATION = 'resturant_site.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    # postgres://yovel:{your_password}@yoveldb-python.postgres.database.azure.com/postgres?sslmode=require
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'resturantDB',
         'USER': 'yovel',
-        'PASSWORD': 'Benny8159',
+        'PASSWORD': 'askMe',
         'HOST': 'yoveldb-python.postgres.database.azure.com',
         'PORT': '',
     },
